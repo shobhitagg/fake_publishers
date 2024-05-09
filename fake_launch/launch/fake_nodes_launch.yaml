@@ -1,0 +1,16 @@
+launch:
+
+- node:
+    pkg: "fake_geometry_msgs"
+    exec: "talker"
+    name: "geometry_msgs_talker"
+
+- node:
+    pkg: "fake_sensor_msgs"
+    exec: "talker"
+    name: "sensor_msgs_talker"
+
+- node:
+    pkg: "fake_industrial_msgs"
+    exec: "talker"
+    name: "industrial_msgs_talker"
